@@ -25,5 +25,3 @@ jobs:
           api_location: ""           # brak API
           output_location: "/"       # bez builda
           #### #################### ####
-
-
