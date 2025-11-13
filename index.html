@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>IMAGENE.ME</title>
+  <base href="/">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge,npmchrome=1"
+  />
+  <link rel="icon" href="https://imagene.me/wp-content/uploads/2023/07/favicon_imagene-300x300.png" sizes="192x192" data-bmid="c9dc6369">
+  <link rel="icon" href="https://imagene.me/wp-content/uploads/2023/07/favicon_imagene-150x150.png" sizes="32x32">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/metropolis-2" rel="stylesheet">
+
+  <style>
+    .font-satoshi-bold {
+      font-family: "Satoshi", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .font-metropolis {
+      font-family: "Metropolis", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .font-metropolis-bold {
+      font-family: "Metropolis", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .content-container {
+      padding: 100px 0;
+    }
+
+    .stick-1 {
+      height: 39px;
+      width: 33px;
+      position: absolute;
+      top: 30px;
+      left: clamp(-200px, -8vw, -50px);
+    }
+
+    .stick-2 {
+      height: 60px;
+      width: 52px;
+      position: absolute;
+      top: 110px;
+      left: clamp(-320px, -16vw, -160px);
+    }
+
+    .gold-dna {
+      height: 320px;
+      width: 512px;
+      position: absolute;
+      right: 0;
+      bottom: 0
+    }
+
+    @media all and (max-width: 1200px) {
+      .stick-1 {
+        left: 0;
+      }
+
+      .stick-2 {
+        left: -80px;
+      }
+
+      .content-container {
+        padding-bottom: 150px;
+      }
+
+      .gold-dna {
+        height: 220px;
+        width: 352px;
+        position: absolute;
+        right: 0;
+        bottom: 0
+      }
+    }
+
+    @media all and (max-width: 700px) {
+      .content-container {
+        padding-top: 200px;
+      }
+
+      .stick-1 {
+        top: 20px;
+        left: 40px;
+      }
+
+      .stick-2 {
+        left: -30px;
+        top: 80px;
+      }
+    }
+  </style>
+</head>
+
+<body style="margin: 0; background-color: #FCFBFA; ">
+  <div style="position: relative; padding: 0 40px; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <img class="gold-dna" src="https://imagene.me/assets/lp/gold_dna.png" />
+
+    <div style="display: flex; flex-direction: column; align-items: center; position: relative;" class="content-container">
+      <img style="height: 70px; width: 186px;" src="https://imagene.me/assets/lp/imagene_logo_2.png" />
+      <img class="stick-1" src="https://imagene.me/assets/lp/gold_stick_1.png" />
+      <img class="stick-2" src="https://imagene.me/assets/lp/gold_stick_2.png" />
+
+      <div style="color: #171616; margin-top: 132px; font-size: 32px;" class="font-satoshi-bold text-center">
+        Zmieniamy się dla Ciebie
+      </div>
+
+      <div style="color: #171616; margin-top: 46px; font-size: 16px;" class="font-metropolis text-center">
+        Pracujemy nad ulepszeniem naszych usług.
+      </div>
+
+      <div style="color: #171616; margin-top: 12px; font-size: 16px;" class="font-metropolis text-center">
+        Dziękujemy za cierpliwość i zapraszamy ponownie wkrótce!
+      </div>
+
+      <div style="height: 1px; width: 100%; margin-top: 130px; margin-bottom: 32px; border-top-width: 1; border-top-style: solid; border-color: #EFF0F2">
+      </div>
+
+      <div style="font-size: 16px; color: #171616; margin-bottom: 32px; letter-spacing: 2px;" class="font-metropolis-bold text-center">
+        IMAGENE.ME
+      </div>
+
+      <div style="font-size: 16px; color: #171616; margin-bottom: 8px;" class="font-metropolis text-center">
+        ul. Transportowa 20, 15-399 Białystok
+      </div>
+
+      <div style="font-size: 16px; color: #171616; margin-bottom: 8px;" class="font-metropolis text-center">
+        tel. +48 514 076 072
+      </div>
+
+      <div style="font-size: 16px; color: #171616;" class="font-metropolis text-center">www.imagene.me</div>
+    </div>
+  </div>
+</body>
+
+</html>
